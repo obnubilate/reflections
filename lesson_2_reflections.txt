@@ -13,3 +13,6 @@ If you only make amendments to a single file; it would not be logical to stage t
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If you wanted to create a version of the software that was presented in a new language or implemented some radical new features (lots of logical changes that substantially alter the general functionality of the software. Know that this is a subjective measure...) you would want to branch as no not alter the master file that your userbase might depend upon. If the new amendments; whatever they might be; prove stable and useful, merging the branch to the master might prove to be a feasibility/necessity/plausibility...
+
+How do the diagrams help you visualize the branch structure?
+Diagrams may help some people conceptualize information and from those visualizations; derive an intimate understanding of the relationships and structure of the "git interface". Unfortunately, these visual models don't really do much for me so I can't say they help me visualize the "branch" structure...personally.
