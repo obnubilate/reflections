@@ -12,3 +12,7 @@ If other contributors make amendments to what is stored on the cloud are not wor
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 One might securely exchange local files with USB devices or using secured file transfers/SVN; but this would probably prove to be..."clumsy" due to the lack of "ease of use" and persistent data synchronization abilities. Due to the lack of agility, it would be harder to collaborate without Git or Github while working on a large team; flows of commit logic is an important part of working on large software products; especially ones that are live. If an error were to occur, having a large history of commits related to branches and master branches depending on the specific point of development; it would be tedious to correct bugs w/o the git/github interface imho
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+One might be developing dramatic new features for a large software system and cannot inferfere with the main project in fear of introducing bugs that could make the system unstable and hinder its usage by a wide userbase. Working on a branch allows the engineer the flexibility to try new things in a "sandbox" like environment and merge only when the commit stream is peer reviewed and can improve the master branch (this improvement metric is subjective)
