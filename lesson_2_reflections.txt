@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git creates a .git (hidden file) into the directory that was called upon when the git "commit" command is given. You need to do it in order to create the repository; without that, it is merely a directory?

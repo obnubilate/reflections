@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The differences allowed me to quickly determine the variation between the two values; and after comparing the previous value form the current(new) value, I was able to determine the deviation between the two and make the correction that is called for given the context of the error? :) 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would allow me to follow the "flow" of the code's development. This information would in turn allow me to pay attention to the style in which the code is written and henceforth make the code more serviceable in the future; as I assume people like predictable code and making amendments written in a similar style to whats already there may be a good way to do this? :) 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If you are working in a team; having a commit and manually pushing things would be useful as you might need to gain approval from a senior developer to ensure that your code fits the protocols of the blueprint in question? Whereas automatic versions like in google would be advantageous if you were working on a sensitive project independently where ensuring data integrity (low chance of loss) is important. For example; if you were a neurosurgeon working on programming pulse frequencies for a fMRI and patient data needed to be acquired quickly to ensure the patients survival, persistent data backups could help mitigate potential hardware errors by ensuring a backup is always available. If a computer were to fail; the data generated (pulse sequence) could be lost and the patients life could be in danger as the data would need to be recreated but there would no longer be enough time to be implemented to effectively implement a medical intervention
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Perhaps Git takes into account the aspect of working with on a large team/multiple collaborators where multiple files are necessary to push in one commit; whereas google docs is focused on saving controbutions from only one individual and therefore treating each file seperately is adequate (in that specific context)
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By using diff - u and comparing the old file vs the new file and using logic to deduce the changes in between the ++ and -- as indicated by the generated file/popup~
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You're always able to determine precisely what you manipulated; so if something goes "wrong", you can rollback to what the code used to be and because it worked previously in that past state; it will be as if the "error" never occured. A truly powerful failsafe....methinks ;) 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    to...commit? hahahaha :)
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can see the flow of "logic" in the history of the code and make amendments that fit this flow of logic so the system is easily serviceable and understood by those tasked to make amendments
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use git for a movie project website....to use it with...github? >:)
+Perhaps I want to make crazy amendments to the html/css on the website without "breaking it" or making it aesthetically horrid in some way.
