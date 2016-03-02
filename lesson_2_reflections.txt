@@ -1,3 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 git creates a .git (hidden file) into the directory that was called upon when the git "commit" command is given. You need to do it in order to create the repository; without that, it is merely a directory?
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area holds the specific files that are selected from the working directory that are in que to be added to the repository (only if the command is initiated from the terminal/git). The working directories entire contents are not always held into the staging area; only specified files are (as previously mentioned)
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+If you only make amendments to a single file; it would not be logical to stage the entire working directory within the staging area as it would be a redundant move; there are no changes and parsing through what is not changed would be a waste of time better spent on the foci in question contained within the specific file that needs to be changed (be it a single line of code, or multiple lines in the same file related to the same logical change). The staging area can as many files from the working directory as needed to make or amend a logical change. These changes sometimes span multiple files; and thus having multiple files in the staging area is imperative
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you wanted to create a version of the software that was presented in a new language or implemented some radical new features (lots of logical changes that substantially alter the general functionality of the software. Know that this is a subjective measure...) you would want to branch as no not alter the master file that your userbase might depend upon. If the new amendments; whatever they might be; prove stable and useful, merging the branch to the master might prove to be a feasibility/necessity/plausibility...
