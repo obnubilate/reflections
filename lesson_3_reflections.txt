@@ -3,3 +3,6 @@ When working on a team (collaborative project) or contributing to an open source
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 You may be making amendments to code that is part of a master project with many contributors; and if you consistently sync with them; their work might deviate/interrupt/not coincide with yours causing unforseeable errors. If you choose when to pull; you can work on local projects that cannot interfere with new files potentially introduced with new amendments on github from other users.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are copied from another persons github to your github. from there you can clone the repo to your local machine. clones can be cloned directly from another machine, or a url and are repo that are copied directly to a local machine but not necessarily present on github.  Branches are commit logic streams distended and running paralell to the master branch. If desired and logical given the context of the development goals, they can be merged with the master branch
