@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When working on a team (collaborative project) or contributing to an open source project; you can push commits to the master branch to see if they get approved by the "master admin" to be synced to the primary (branch) "master string of commits"
