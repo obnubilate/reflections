@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 When working on a team (collaborative project) or contributing to an open source project; you can push commits to the master branch to see if they get approved by the "master admin" to be synced to the primary (branch) "master string of commits"
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+You may be making amendments to code that is part of a master project with many contributors; and if you consistently sync with them; their work might deviate/interrupt/not coincide with yours causing unforseeable errors. If you choose when to pull; you can work on local projects that cannot interfere with new files potentially introduced with new amendments on github from other users.
