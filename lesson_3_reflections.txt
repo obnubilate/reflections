@@ -6,3 +6,6 @@ You may be making amendments to code that is part of a master project with many 
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are copied from another persons github to your github. from there you can clone the repo to your local machine. clones can be cloned directly from another machine, or a url and are repo that are copied directly to a local machine but not necessarily present on github.  Branches are commit logic streams distended and running paralell to the master branch. If desired and logical given the context of the development goals, they can be merged with the master branch
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If other contributors make amendments to what is stored on the cloud are not working on the specific branch you are engaged with, keeping things automatically up to date/synced might overwrite the amendments that you made thus setting you back. If you are not connected to the interwebz "on a plane", and still want to make amendments; you can do so on the local system and the only way to access the code present in the cloud w/o interwebz access is through the local code stores; hence why its existence is imperative to both reference, rewrite, and actively amend
